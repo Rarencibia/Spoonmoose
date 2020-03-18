@@ -1,1 +1,16 @@
-body{padding:50px;font:14px "Lucida Grande",Helvetica,Arial,sans-serif}a{color:#00B7FF}
+#navBar {
+  rgb(250, 250, 210, .05);
+  border-style: double;
+}
+
+#navBarLinks {
+  border-style: double;
+}
+
+
+ul {
+  text-align: center;
+}
+li {
+  list-style-type: none;
+}
