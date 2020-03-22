@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+}
+
+.navigation {
+  width: 80%;
+  margin: 0 auto;
+
+
+}
+
+header {
+  background: #00008B;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  width: 400px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 70px;
+
+
+  position: relative;
+}
+
+nav ul li a {
+  color: #F0F8FF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+
+nav ul li a:hover {
+  color: #F0F8FF;
+}
+
+nav ul li a::before {
+  content: '';
+  display: block;
+  height: 4px;
+  width: 100%;
+  background-color: #00FFFF;
+  position: absolute;
+  top: 60px;
+  width: 0;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+.searchContainer {
+  float: right;
+  padding-top: 70px;
+  padding-left: 50px;
+
+}
+
+
+/*Dropdown Styling*/
+.dropdown {
+  position: relative;
+
+}
+
+.dropdown-content {
+  position: absolute;
+  display: none;
+}
+
+.dropdown-content li {
+  width: 100%;
+  background-color: #00008B
+
+
+}
+
+ul .dropdown-content {
+  background-color: #00008B;
+
+}
+
+
+.dropdown:hover .dropdown-content{
+  display: block;
+
+}
