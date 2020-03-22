@@ -3,14 +3,25 @@
   border-style: double;
 }
 
-#navBarLinks {
-  border-style: double;
+#navBarList {
 }
 
 
 ul {
   text-align: center;
+
+
 }
 li {
   list-style-type: none;
+  float: left;
+  height: 50px;
+  width: 500px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 40px;
+}
+
+li a:link {
+  text-decoration: none;
+
 }
