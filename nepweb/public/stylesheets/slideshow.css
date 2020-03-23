@@ -1,0 +1,36 @@
+#imageDisplaySlideshow {
+  width: 1000px;
+  height: 740px;
+  overflow: hidden;
+}
+
+.carousel {
+  text-align: center;
+}
+
+#nextprev {
+  border-style: double;
+  border-radius: 10px;
+
+}
+
+.prev, .next {
+  cursor: pointer;
+  top: 50%;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+
+.next:hover {
+  background-color: #00FFFF;
+}
+
+.prev:hover {
+  background-color: #00FFFF;
+}
