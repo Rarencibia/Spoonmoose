@@ -1,0 +1,45 @@
+.mainPage {
+  background-color: #00FFFF;
+  overflow: hidden;
+
+}
+
+#featuredItems {
+  text-align: left;
+
+}
+
+
+.salesMaterial {
+  background-color: white;
+  position: relative;
+  width: 90%;
+  height: 850px;
+  text-align: center;
+  margin: 90px;
+  margin-top: 0;
+  border-style: double;
+}
+
+
+.card {
+  position: relative;
+  max-width: 15rem;
+  text-align: center;
+  background-color: rgb(169, 169, 169, .5);
+  margin-right: 10px;
+  float: left;
+}
+
+.card-img-top {
+  position: relative;
+  text-align: center;
+  max-width: 15rem;
+  max-height: 13rem;
+
+}
+
+#bigFeaturePicture {
+  width: 500px;
+  height: 500px;
+}
