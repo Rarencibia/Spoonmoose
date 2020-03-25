@@ -1,11 +1,27 @@
 .mainPage {
   background-color: #00FFFF;
-  overflow: hidden;
-
+  overflow: scroll;
 }
+
+
 
 #featuredItems {
   text-align: left;
+  text-align: center;
+  font-family: 'Passero One', cursive;
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+
+}
+
+.card-title {
+  font-family: 'Henny Penny', cursive;
+}
+
+
+.card-text {
+  font-family: 'Liu Jian Mao Cao', cursive;
 
 }
 
@@ -24,22 +40,19 @@
 
 .card {
   position: relative;
-  max-width: 15rem;
+  max-width: 20rem;
   text-align: center;
   background-color: rgb(169, 169, 169, .5);
+  margin-top: 20px;
   margin-right: 10px;
+  margin-left: 150px;
   float: left;
 }
 
 .card-img-top {
   position: relative;
   text-align: center;
-  max-width: 15rem;
+  max-width: 30rem;
   max-height: 13rem;
 
-}
-
-#bigFeaturePicture {
-  width: 500px;
-  height: 500px;
 }
