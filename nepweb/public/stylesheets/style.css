@@ -1,4 +1,46 @@
-body {
+
+/*topBar is the header for the navbar*/
+.topBar {
+    background-color: #00008B;
+}
+
+/*All the link styling*/
+.nav-link {
+    font-size: 30px;
+    font-family: 'Cinzel', serif;
+    margin-left: 35px;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+
+li a{
+    position: relative;
+}
+
+li a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #00FFFF;
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms
+}
+
+nav a:hover::before {
+    width: 90%
+}
+
+
+
+
+
+
+
+/*body {
   margin: 0;
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
@@ -85,7 +127,7 @@ nav a:hover::before {
 }
 
 
-/*Dropdown Styling*/
+/*Dropdown Styling
 .dropdown {
   position: relative;
 

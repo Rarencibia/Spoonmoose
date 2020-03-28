@@ -1,27 +1,51 @@
-<header>
-  <div class="navigation">
-    <img class="logo" src="images/companyLogo.jpg" alt="Company Logo" title="SpoonMoose">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li class="dropdown"><a href="#">Products&nbsp;<i class="fa fa-caret-down"></i></a>
-          <ul class="dropdown-content">
-            <li><a href="#">Mugs</a></li>
-            <li><a href="#">T-Shirts</a></li>
-            <li><a href="#">Candles</a></li>
-          </ul>
-        </li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact Us</a></li>
+<header class="topBar">
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <a href="#" class="navbar-brand"><img class="logo"src="images/companyLogo.jpg" alt="Company Logo" title="SpoonMoose" width="350px;"></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                  <a href="#" class="nav-link">Home</a>
+              </li>
 
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">Products</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">T-Shirts</a>
+                      <a class="dropdown-item" href="#">Mugs</a>
+                      <a class="dropdown-item" href="#">Candles</a>
+                  </div>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link">Contact Us</a>
+              </li>
+            </ul>
+        </div>
 
-
-      </ul>
 
 
     </nav>
 
-  </div>
 </header>
+
+
+
+
+<!--<li class="dropdown"><a href="#">Products&nbsp;<i class="fa fa-caret-down"></i></a>
+
+
+<li class="nav-item dropdown">
+    <a href="#">Mugs</a>
+</li>
+<li class="nav-item dropdown">
+    <a href="#">T-Shirts</a>
+</li>
+<li class="nav-item dropdown">
+    <a href="#">Candles</a>
+</li>-->
