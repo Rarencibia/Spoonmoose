@@ -4,15 +4,15 @@ body {
 }
 
 .insideBody {
-    background-color: white;
-    width: 90%;
+    background-color: #00FFFF;
+    width: 80%;
     min-height: 87vh;
     margin: auto;
-    border-style: dashed;
 }
 
 .pictureWall {
-    margin-left: 30px;
+    width: 46%;
+    text-align: center;
 }
 
 .mainPicture {
@@ -21,8 +21,21 @@ body {
 }
 
 .thumbnails {
-    width: 120px;
+    width: 80px;
+    margin-left: 60px;
+    border-radius: 60%;
+
+
+
 }
 .thumbnails:hover {
-    box-shadow: #00FFFF
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+h3  {
+    text-align: center;
+    font-family: 'Spicy Rice', cursive;
+
+
+
 }
