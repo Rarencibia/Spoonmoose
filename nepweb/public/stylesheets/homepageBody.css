@@ -21,7 +21,10 @@ body {
 }
 
 .thumbnails {
-    width: 80px;
+    max-width: 80px;
+    min-width: 80px;
+    min-height: 90px;
+    max-height: 90px;
     margin-left: 60px;
     border-radius: 60%;
 
