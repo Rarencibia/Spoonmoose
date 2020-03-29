@@ -20,7 +20,6 @@ mingw_build_debug
 
 #node.js
 node_modules
-package-lock.json
 
 #build files
 *.out
