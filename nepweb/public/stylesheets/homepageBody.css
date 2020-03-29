@@ -1,58 +1,28 @@
-.mainPage {
-  background-color: #00FFFF;
-  overflow: scroll;
-}
-
-
-
-#featuredItems {
-  text-align: left;
-  text-align: center;
-  font-family: 'Passero One', cursive;
-  font-size: 20px;
-  margin-top: 10px;
-  font-weight: bold;
+body {
+    overflow: hidden;
 
 }
 
-.card-title {
-  font-family: 'Henny Penny', cursive;
+.insideBody {
+    background-color: white;
+    width: 90%;
+    min-height: 87vh;
+    margin: auto;
+    border-style: dashed;
 }
 
-
-.card-text {
-  font-family: 'Liu Jian Mao Cao', cursive;
-
+.pictureWall {
+    margin-left: 30px;
 }
 
-
-.salesMaterial {
-  background-color: white;
-  position: relative;
-  width: 90%;
-  height: 850px;
-  text-align: center;
-  margin: 90px;
-  margin-top: 0;
-  border-style: double;
+.mainPicture {
+    width: 700px;
+    height: 600px;
 }
 
-
-.card {
-  position: relative;
-  max-width: 20rem;
-  text-align: center;
-  background-color: rgb(169, 169, 169, .5);
-  margin-top: 20px;
-  margin-right: 10px;
-  margin-left: 150px;
-  float: left;
+.thumbnails {
+    width: 120px;
 }
-
-.card-img-top {
-  position: relative;
-  text-align: center;
-  max-width: 30rem;
-  max-height: 13rem;
-
+.thumbnails:hover {
+    box-shadow: #00FFFF
 }
