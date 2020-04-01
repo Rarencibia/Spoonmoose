@@ -4,6 +4,11 @@
     background-color: rgb(4, 60, 100);
 }
 
+.logo {
+    width: 350px;
+}
+
+
 /*All the link styling*/
 .nav-link {
     font-size: 30px;
