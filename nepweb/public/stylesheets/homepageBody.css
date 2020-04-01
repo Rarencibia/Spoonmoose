@@ -64,11 +64,32 @@ h3  {
 .buttonText {
     font-size: 100px;
     font-family: 'Spicy Rice', cursive;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.5s ease-in-out;
 
 }
 
-.buyNowButton:hover {
-    color: rgba(255, 255, 0, 1);
+/*Social Media Links at the bottom.*/
 
+.socialMediaLinks {
+    position: absolute;
+    top: 95%;
+
+}
+
+/*Facebook Image*/
+.facebookLogoImg {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+/*Instagram Image*/
+.instagramLogoImg {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+/*Twitter Image*/
+.twitterLogoImg {
+    max-width: 30px;
+    max-height: 30px;
 }

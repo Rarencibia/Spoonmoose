@@ -1,7 +1,7 @@
 
 /*topBar is the header for the navbar*/
 .topBar {
-    background-color: #00008B;
+    background-color: rgb(4, 60, 100);
 }
 
 /*All the link styling*/
@@ -14,9 +14,20 @@
 }
 
 
+
+
+
+
+
 li a{
     position: relative;
+    color: white;
 }
+
+#navbarMenu {
+    color: white;
+}
+
 
 li a::before{
     content: '';
@@ -27,11 +38,12 @@ li a::before{
     top: 0;
     width: 0%;
 
+
     transition: all ease-in-out 250ms
 }
 
 nav a:hover::before {
-    width: 90%
+    width: 90%;
 }
 
 
