@@ -1,10 +1,10 @@
 body {
 
-
 }
 
 /*Left side of page. pictures*/
 .insideBody {
+    position: relative;
     background-color: #00FFFF;
     width: 80%;
     min-height: 87vh;
@@ -15,7 +15,6 @@ body {
     width: 46%;
     text-align: center;
     float: left;
-
 }
 
 .mainPicture {
@@ -86,7 +85,7 @@ h3  {
 
 /*Social Media Links at the bottom.*/
 
-.socialMediaLinks {
+.socialMediaLinks{
     position: absolute;
     top: 95%;
 

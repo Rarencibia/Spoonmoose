@@ -1,0 +1,27 @@
+.topContactInformation {
+        margin: 30px;
+        padding: 30px;
+        text-align: center;
+        font-family: 'IM Fell French Canon SC', serif;
+}
+
+
+#contactSpoonmoose {
+    text-transform: capitalize;
+    font-size: 45px;
+}
+
+.questionnaireContainer {
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-left: 30%;
+    margin-top: 50px;
+
+}
+
+.assistanceContainer {
+    float: right;
+    margin-right: 30%;
+    margin-top: 50px;
+}
