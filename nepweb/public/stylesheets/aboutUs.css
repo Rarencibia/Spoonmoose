@@ -1,0 +1,72 @@
+#aboutUsBody {
+    background-color: rgb(47, 85, 234);
+}
+
+
+/*Main Image Elements*/
+.mainImageLeft {
+    float: left;
+}
+
+
+#dannyKateMainPicture {
+    width: 600px;
+    height: 87vh;
+}
+
+/*About us Body and Styling*/
+.aboutUsIntroduction {
+    float: left;
+    width: 35%;
+    padding: 50px;
+    border-style: double;
+    margin: auto;
+    text-align: justify;
+    margin-left: 50px;
+    margin-top: 60px;
+    background-color: #00FFFF;
+    border-radius: 20%;
+
+}
+
+#aboutUsParagraph {
+    font-family: 'Lobster', cursive;
+    word-spacing: 5px;
+}
+
+#aboutUsHeader {
+    font-family: 'Spicy Rice', cursive;
+    text-align: center;
+}
+
+#aboutUsHeader::after {
+    content: ' \21A1';
+}
+
+
+/*Special Thanks*/
+
+.specialThanksKids {
+    float: left;
+    width: 450px;
+    height: 650px;
+    border-style: double;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 20%;
+    overflow: hidden;
+    background-color: #00FFFF;
+
+}
+
+.kidsPictures {
+    width: 450px;
+    height: 300px;
+}
+
+#thanksSegment {
+    width: 400px;
+    margin-left: 20px;
+    text-align: center;
+}
