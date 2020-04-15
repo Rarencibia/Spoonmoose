@@ -1,14 +1,15 @@
 body {
-
+    background-color: black;
 }
 
 /*Left side of page. pictures*/
 .insideBody {
     position: relative;
-    background-color: #00FFFF;
     width: 80%;
     min-height: 87vh;
     margin: auto;
+    background-image: url("../images/homepageBackground.jpeg");
+
 }
 
 .pictureWall {
