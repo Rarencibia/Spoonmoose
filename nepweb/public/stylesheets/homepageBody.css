@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: white;
 }
 
 /*Left side of page. pictures*/
@@ -56,9 +56,10 @@ h3  {
 .buyNowButton {
     width: 400px;
     border-style: double;
-    border-color: white;
+    border-color: black;
+    border-radius: 1px;
     border-radius: 60%;
-    background-color: pink;
+    background-color: rgb(115, 155, 145);
 }
 
 .buyNowButton:hover {
