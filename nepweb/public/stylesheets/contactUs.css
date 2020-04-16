@@ -1,5 +1,5 @@
 #contactUsBody {
-    background-color: #00FFFF;
+    background-color: rgb(154, 237, 255);
 }
 
 .topContactInformation {
@@ -12,7 +12,8 @@
 
 #contactSpoonmoose {
     text-transform: capitalize;
-    font-size: 45px;
+    font-size: 40px;
+    font-weight: 100;
 }
 
 .questionnaireContainer {
@@ -28,4 +29,12 @@
     float: right;
     margin-right: 30%;
     margin-top: 50px;
+}
+
+.headerStyles {
+    font-family: 'Spicy Rice', cursive;
+}
+
+#test {
+    text-decoration: line-through;
 }
