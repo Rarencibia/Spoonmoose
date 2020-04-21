@@ -9,6 +9,8 @@ var indexRouter = require('./routes/index');
 var about_router = require('./routes/about');
 var contact_router = require('./routes/contact');
 var products_router = require('./routes/products');
+var blog_router = require('./routes/blog')
+//Routes is similiar to "include."
 
 var app = express();
 
@@ -26,6 +28,7 @@ app.use('/', indexRouter);
 app.use('/about', about_router);
 app.use('/contact', contact_router);
 app.use('/products', products_router);
+app.use('/blog', blog_router);
 
 
 // catch 404 and forward to error handler
