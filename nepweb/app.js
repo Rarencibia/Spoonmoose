@@ -10,6 +10,7 @@ var about_router = require('./routes/about');
 var contact_router = require('./routes/contact');
 var products_router = require('./routes/products');
 var blog_router = require('./routes/blog')
+var tShirts_router = require('./routes/tShirts')
 //Routes is similiar to "include."
 
 var app = express();
@@ -29,6 +30,7 @@ app.use('/about', about_router);
 app.use('/contact', contact_router);
 app.use('/products', products_router);
 app.use('/blog', blog_router);
+app.use('/tShirts', tShirts_router);
 
 
 // catch 404 and forward to error handler
