@@ -23,6 +23,12 @@ body {
     height: 600px;
 }
 
+.thumbnailDiv {
+    width: 150px;
+    height: 150px;
+}
+
+
 .thumbnails {
     max-width: 80px;
     min-width: 80px;
