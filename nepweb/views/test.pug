@@ -1,0 +1,44 @@
+
+extends layout
+
+block content
+
+    each object in items
+
+        .
+            <link rel="stylesheet" type="text/css" href="stylesheets/tShirts.css">
+            <script src="javascript/tShirts.js"type="text/javascript"></script>
+
+            <div class="productCardWrapper">
+                <div class="productCardContainer">
+                    <div class="top"></div>
+                    <div class="bottom">
+                        <div class="left">
+                            <div class="details">
+                                <h1 id="detailsHeader">
+        = object.name
+        //- Black Cat T-Shirt
+
+        .
+                                </h1>
+        .
+                                <p id="detailsPrice">$
+        
+        = object.price
+        //- 30
+        .
+                                </p>
+                            </div>
+                        </div>
+                        <div class="right">
+                                <div class="shoppingCart">
+                                    <div class="buy">
+                                        <button id ="buyNow" type="button" name="button">Buy Now!</button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                    </div>
+                </div>
+            </div>

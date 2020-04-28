@@ -38,7 +38,9 @@ app.use('/blog', blog_router);
 var tShirts_router = require('./routes/tShirts')
 app.use('/tShirts', tShirts_router);
 
-app.use('/tShirts', tShirts_router);
+var test_router = require('./routes/test')
+app.use('/test', test_router);
+
 
 
 // catch 404 and forward to error handler
