@@ -11,6 +11,7 @@
 
 /*All the link styling*/
 .nav-link {
+    color: white !important;
     font-size: 30px;
     font-family: 'Cinzel', serif;
     margin-left: 35px;
