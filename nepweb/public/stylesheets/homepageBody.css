@@ -59,38 +59,6 @@ h3  {
     text-align: center;
 }
 
-.buyNowButton {
-    width: 400px;
-    border-style: double;
-    border-color: rgb(106, 138, 115);
-    border-width: 5px;
-    border-radius: 60%;
-    background-color: rgb(154, 237, 255);
-}
-
-.buyNowButton:hover {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-transition-duration: 0.5s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-}
-.buyNowButton:hover, .buyNowButton:focus, .buyNowButton:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-.buttonText {
-    font-size: 100px;
-    font-family: 'Spicy Rice', cursive;
-    transition: all 0.5s ease-in-out;
-
-}
-
 /*Social Media Links at the bottom.*/
 
 .socialMediaLinks{

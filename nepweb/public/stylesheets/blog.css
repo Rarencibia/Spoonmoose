@@ -1,47 +1,105 @@
 /*The main container styling*/
 
 
-.gridContainer {
+
+.mainHomepageContainer {
     background-image: url('../images/homepageBackground.jpeg');
     max-width: 100%;
     max-height: 100%;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-   
-    
-    
+
+
 }
+
 
 
 /*The grid styling*/
 .box {
-    ;
-    border: 2px black solid;
-    
-}
+    max-width: 100%;
+
+}   
 
 
 
 /*Start of body styling*/
 
-.box1 {
-
-}
-
-.box2 {
-    
-}
-
-.box3{
-
-}
-
-.box4 {
-}
 
 .mainPicture {
     object-fit: cover;
-    max-height: 100%;
+    max-height: auto;
     max-width: 100%;
+    margin-bottom: 50px;
 }
+
+.trendingItems {
+    max-width: 100%;
+
+    align-self: center;
+    margin-bottom: 40px;
+}
+
+
+
+footer {
+    width: 100%;
+    border-top: black solid 2px;
+    text-align: center;
+
+
+
+}
+
+.socialMediaLogoI {
+    width: 60px;
+    height: auto;
+    margin-right: 30px;
+
+}
+
+
+.socialSocial {
+    margin-top: 10px;
+}
+
+
+/*Button Behavior/Styling*/
+.buyNowButton {
+    position: absolute;
+    left: 50%;
+    width: 400px;
+    border-style: double;
+    border-color: rgb(106, 138, 115);
+    border-width: 5px;
+    border-radius: 60%;
+    background-color: rgb(154, 237, 255);
+}
+
+.buyNowButton:hover {
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.buyNowButton:hover, .buyNowButton:focus, .buyNowButton:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.buttonText {
+    font-size: 100px;
+    font-family: 'Spicy Rice', cursive;
+    transition: all 0.5s ease-in-out;
+
+}
+
+
+@media (max-width: 1425px){
+    .buyNowButton {
+        display: none;
+    }
+}
+    
