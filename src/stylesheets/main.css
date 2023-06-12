@@ -1,0 +1,215 @@
+/* line 1, src/sass/_homepageIntro.scss */
+.homepage-intro-wrapper {
+  margin: auto;
+  margin-top: 100px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1); }
+  /* line 13, src/sass/_homepageIntro.scss */
+  .homepage-intro-wrapper .intro-p {
+    width: 33%;
+    height: auto;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-shadow: 2px 2px 2px white; }
+  /* line 22, src/sass/_homepageIntro.scss */
+  .homepage-intro-wrapper .divider {
+    width: 45%;
+    background-image: url("../images/dogpins.jpg");
+    background-position: center;
+    background-size: cover;
+    transform: rotate(-45deg);
+    height: 150px;
+    filter: contrast(200%); }
+  /* line 31, src/sass/_homepageIntro.scss */
+  .homepage-intro-wrapper .intro-picture-container {
+    width: 15%; }
+  /* line 36, src/sass/_homepageIntro.scss */
+  .homepage-intro-wrapper .test {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    filter: grayscale(65%); }
+
+/* line 1, src/sass/_nav.scss */
+nav {
+  position: relative;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px; }
+  /* line 16, src/sass/_nav.scss */
+  nav ul li {
+    margin-left: 120px;
+    margin-right: 50px;
+    font-weight: 900;
+    font-size: 2.5rem;
+    letter-spacing: 3px; }
+  /* line 26, src/sass/_nav.scss */
+  nav .nav-bar-li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+
+/* line 1, src/sass/_mainPortrait.scss */
+.main-portrait {
+  width: 100%; }
+  /* line 5, src/sass/_mainPortrait.scss */
+  .main-portrait .logo-DTLN {
+    width: 95%;
+    margin: auto;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    font-family: "Bigelow Rules", cursive;
+    text-align: right;
+    background: white;
+    background: linear-gradient(90deg, white 0%, white 63%, rgba(78, 0, 247, 0.858047) 100%); }
+  /* line 17, src/sass/_mainPortrait.scss */
+  .main-portrait .logoDTLN {
+    font-size: 2.5rem;
+    position: relative;
+    color: #f9a12eff; }
+    /* line 21, src/sass/_mainPortrait.scss */
+    .main-portrait .logoDTLN:before {
+      position: absolute;
+      content: "DoesThisLookNormal?";
+      left: 3px;
+      color: #9b4a97ff; }
+  /* line 31, src/sass/_mainPortrait.scss */
+  .main-portrait .main-logo {
+    width: 95%;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-image: url("../images/familyPhoto.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*Sets the background on the main picture*/ }
+    /* line 47, src/sass/_mainPortrait.scss */
+    .main-portrait .main-logo:before {
+      background: #020024;
+      background: linear-gradient(90deg, #020024 0%, rgba(22, 22, 82, 0.533117) 52%, #fefefe 83%);
+      content: '';
+      width: 100%;
+      height: 80vh;
+      display: block;
+      opacity: .90; }
+  /* line 58, src/sass/_mainPortrait.scss */
+  .main-portrait .main-portrait-intro {
+    position: absolute;
+    left: 25%;
+    bottom: 35%;
+    width: 50%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5); }
+
+/* line 1, src/sass/_homepageBody.scss */
+.body-container {
+  width: 100%;
+  height: 100%;
+  /*Entire Column for the images inside the grid*/
+  /*Different picture backgrounds for every other type of product shown*/
+  /*The images themselves*/ }
+  /* line 7, src/sass/_homepageBody.scss */
+  .body-container .type-of-products-container {
+    background-image: url("../images/leftBackground.png");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto; }
+  /* line 18, src/sass/_homepageBody.scss */
+  .body-container .products-wrapper {
+    width: 75%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    background: #eb4900;
+    background: radial-gradient(circle, #eb4900 0%, #f6af8f 98%, white 100%);
+    margin-top: 200px;
+    box-shadow: 3px 3px 3px black; }
+  /* line 29, src/sass/_homepageBody.scss */
+  .body-container .products-wrapper h1 {
+    padding: 20px;
+    text-decoration: underline; }
+  /* line 34, src/sass/_homepageBody.scss */
+  .body-container .products-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    overflow: hidden;
+    padding: 10px; }
+  /* line 47, src/sass/_homepageBody.scss */
+  .body-container .productImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black; }
+  /* line 58, src/sass/_homepageBody.scss */
+  .body-container .productImg:nth-child(even) {
+    background-image: url("../images/leftBackground.png");
+    background-position: center; }
+  /* line 64, src/sass/_homepageBody.scss */
+  .body-container .productImg:nth-child(odd) {
+    background-image: url("../images/rightBackground.png");
+    background-position: center; }
+  /* line 70, src/sass/_homepageBody.scss */
+  .body-container .product-image {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    box-shadow: 3px 3px 10px black;
+    border: 3px inset white; }
+    /* line 77, src/sass/_homepageBody.scss */
+    .body-container .product-image:hover {
+      cursor: pointer;
+      transition-duration: .2s;
+      transform: rotate(3deg); }
+  /* line 87, src/sass/_homepageBody.scss */
+  .body-container .product-image p {
+    background-color: rgba(0, 0, 0, 0.5); }
+  /* line 105, src/sass/_homepageBody.scss */
+  .body-container .placeholder {
+    background-image: url("../images/rightBackground.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto; }
+
+/* line 7, src/sass/main.scss */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Bigelow Rules", cursive;
+  letter-spacing: 5px;
+  overflow-x: hidden; }

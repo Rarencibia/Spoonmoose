@@ -1,0 +1,15 @@
+@import './variables';
+@import './homepageIntro';
+@import './nav';
+@import './mainPortrait';
+@import './homepageBody';
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: $logo-font;
+    letter-spacing: 5px;
+    overflow-x: hidden;
+
+}
+

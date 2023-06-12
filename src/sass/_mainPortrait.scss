@@ -1,0 +1,78 @@
+.main-portrait {
+    width: 100%;
+    
+
+    .logo-DTLN {
+        width: 95%;
+        margin: auto;
+        font-size: 3rem;
+        letter-spacing: 5px;
+        font-family: $logo-font;
+        text-align: right;
+        background: rgb(255,255,255);
+        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 63%, rgba(78,0,247,0.8580474426098564) 100%);
+        
+    }
+
+    .logoDTLN{
+        font-size: 2.5rem;
+        position: relative;
+        color: #f9a12eff;
+        &:before{
+            position: absolute;
+            content: "DoesThisLookNormal?";
+            left: 3px;
+            color: #9b4a97ff;
+        }
+    }
+
+
+    
+    .main-logo {
+        width: 95%;
+        height: 80vh;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        background-image: url('../images/familyPhoto.png');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+
+
+        /*Sets the background on the main picture*/
+        &:before {
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(22,22,82,0.5331174706210609) 52%, rgba(254,254,254,1) 83%);            
+            content: '';
+            width: 100%;
+            height: 80vh;
+            display: block;
+            opacity: .90;
+        }
+    }
+
+    .main-portrait-intro{
+        position: absolute;
+        left: 25%;
+        bottom: 35%;
+        width: 50%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        color: white;
+        background: rgba(0,0,0,.5);
+    }
+
+
+
+
+
+
+}
